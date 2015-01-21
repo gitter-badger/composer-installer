@@ -1,0 +1,22 @@
+{
+    "name": "lappuse/composer-installer",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mert Kabadayi",
+            "email": "mert.kabadayi@smartpixel.com.tr"
+        }
+    ],
+    "require": {
+        "composer-plugin-api": "1.0.0",
+    },
+    "autoload": {
+        "psr-0": {
+            "Lappuse\\Composer\\": "src/"
+        }
+    },
+    "extra": {
+        "class": "Lappuse\\Composer\\Plugin"
+    }
+}

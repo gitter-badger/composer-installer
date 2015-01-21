@@ -1,0 +1,57 @@
+[
+    {
+        "name": "anomaly/streams-composer-plugin",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/anomalylabs/streams-composer-plugin.git",
+            "reference": "af210514a399d1e63dbaa584099114f74271632e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/anomalylabs/streams-composer-plugin/zipball/af210514a399d1e63dbaa584099114f74271632e",
+            "reference": "af210514a399d1e63dbaa584099114f74271632e",
+            "shasum": ""
+        },
+        "require": {
+            "composer-plugin-api": "1.0.0"
+        },
+        "require-dev": {
+            "codeclimate/php-test-reporter": "dev-master",
+            "composer/composer": "1.0.*@dev",
+            "henrikbjorn/phpspec-code-coverage": "~0.2",
+            "phpspec/phpspec": "2.0.*@dev"
+        },
+        "time": "2015-01-05 01:19:25",
+        "type": "composer-plugin",
+        "extra": {
+            "class": "Anomaly\\StreamsComposerPlugin\\Plugin",
+            "branch-alias": {
+                "dev-master": "0.1.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Anomaly\\StreamsComposerPlugin\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Osvaldo Brignoni",
+                "email": "obrignoni@anomaly.is"
+            }
+        ],
+        "description": "Composer plugin for streams platform.",
+        "keywords": [
+            "Streams",
+            "composer",
+            "plugin"
+        ]
+    }
+]
